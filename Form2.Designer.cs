@@ -29,17 +29,19 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtUsuario = new System.Windows.Forms.TextBox();
-            this.txtContraseña = new System.Windows.Forms.TextBox();
-            this.btnRegistrarUsuario = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
+            this.btnRegistrarUsuario = new System.Windows.Forms.Button();
+            this.txtContraseña = new System.Windows.Forms.TextBox();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.BackgroundImage = global::Nova.Properties.Resources.IMG_20250625_WA0019;
+            this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.groupBox1.Controls.Add(this.btnCancelar);
             this.groupBox1.Controls.Add(this.btnRegistrarUsuario);
             this.groupBox1.Controls.Add(this.txtContraseña);
@@ -52,30 +54,28 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
-            // label1
+            // btnCancelar
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(30, 29);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(64, 22);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Usuario";
+            this.btnCancelar.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnCancelar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnCancelar.Location = new System.Drawing.Point(239, 181);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(88, 29);
+            this.btnCancelar.TabIndex = 5;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = false;
             // 
-            // label2
+            // btnRegistrarUsuario
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(30, 87);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(87, 22);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Contraseña";
-            // 
-            // txtUsuario
-            // 
-            this.txtUsuario.Location = new System.Drawing.Point(125, 30);
-            this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(164, 29);
-            this.txtUsuario.TabIndex = 2;
+            this.btnRegistrarUsuario.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnRegistrarUsuario.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnRegistrarUsuario.Location = new System.Drawing.Point(34, 181);
+            this.btnRegistrarUsuario.Name = "btnRegistrarUsuario";
+            this.btnRegistrarUsuario.Size = new System.Drawing.Size(149, 29);
+            this.btnRegistrarUsuario.TabIndex = 4;
+            this.btnRegistrarUsuario.Text = "Registrar usuario";
+            this.btnRegistrarUsuario.UseVisualStyleBackColor = false;
+            this.btnRegistrarUsuario.Click += new System.EventHandler(this.btnRegistrarUsuario_Click);
             // 
             // txtContraseña
             // 
@@ -85,24 +85,34 @@
             this.txtContraseña.Size = new System.Drawing.Size(164, 29);
             this.txtContraseña.TabIndex = 3;
             // 
-            // btnRegistrarUsuario
+            // txtUsuario
             // 
-            this.btnRegistrarUsuario.Location = new System.Drawing.Point(34, 181);
-            this.btnRegistrarUsuario.Name = "btnRegistrarUsuario";
-            this.btnRegistrarUsuario.Size = new System.Drawing.Size(149, 29);
-            this.btnRegistrarUsuario.TabIndex = 4;
-            this.btnRegistrarUsuario.Text = "Registrar usuario";
-            this.btnRegistrarUsuario.UseVisualStyleBackColor = true;
-            this.btnRegistrarUsuario.Click += new System.EventHandler(this.btnRegistrarUsuario_Click);
+            this.txtUsuario.Location = new System.Drawing.Point(125, 30);
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(164, 29);
+            this.txtUsuario.TabIndex = 2;
             // 
-            // btnCancelar
+            // label2
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(239, 181);
-            this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(88, 29);
-            this.btnCancelar.TabIndex = 5;
-            this.btnCancelar.Text = "Cancelar";
-            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label2.Location = new System.Drawing.Point(30, 87);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(87, 22);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Contraseña";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.Location = new System.Drawing.Point(30, 29);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(64, 22);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Usuario";
             // 
             // Form2
             // 
@@ -112,7 +122,7 @@
             this.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

@@ -19,8 +19,10 @@ namespace Nova
         public Form1()
         {
             InitializeComponent();
-             ruta = Path.Combine(Application.StartupPath, @"Data\NovaDb.mdf");
-            cadena_conexion = $"Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename={ruta};Integrated Security=True;Connect Timeout=30";
+
+            ruta = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "NovaDb.mdf");
+            cadena_conexion = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\NovaDb.mdf;Integrated Security=True;";
+
 
 
         }
@@ -60,6 +62,9 @@ namespace Nova
                         if (cuenta > 0)
                         {
                             MessageBox.Show("Inicio de sesión exitoso " + MessageBoxButtons.OK);
+                            Form3 form3 = new Form3();
+                            form3.Show();
+                            this.Hide();
                         }
                         else
                         {

@@ -3,16 +3,42 @@
   "WorkspaceRootPath": "C:\\Users\\Angel\\source\\repos\\Nova\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1E46C5F9-CB11-459F-8837-903BF05184CF}|Nova.csproj|c:\\users\\angel\\source\\repos\\nova\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Nova||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E46C5F9-CB11-459F-8837-903BF05184CF}|Nova.csproj|C:\\Users\\Angel\\source\\repos\\Nova\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E46C5F9-CB11-459F-8837-903BF05184CF}|Nova.csproj|solutionrelative:form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E46C5F9-CB11-459F-8837-903BF05184CF}|Nova.csproj|C:\\Users\\Angel\\source\\repos\\Nova\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1E46C5F9-CB11-459F-8837-903BF05184CF}|Nova.csproj|solutionrelative:form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E46C5F9-CB11-459F-8837-903BF05184CF}|Nova.csproj|C:\\Users\\Angel\\source\\repos\\Nova\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E46C5F9-CB11-459F-8837-903BF05184CF}|Nova.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E46C5F9-CB11-459F-8837-903BF05184CF}|Nova.csproj|C:\\Users\\Angel\\source\\repos\\Nova\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E46C5F9-CB11-459F-8837-903BF05184CF}|Nova.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E46C5F9-CB11-459F-8837-903BF05184CF}|Nova.csproj|c:\\users\\angel\\source\\repos\\nova\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E46C5F9-CB11-459F-8837-903BF05184CF}|Nova.csproj|C:\\Users\\Angel\\source\\repos\\Nova\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E46C5F9-CB11-459F-8837-903BF05184CF}|Nova.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E46C5F9-CB11-459F-8837-903BF05184CF}|Nova.csproj|c:\\users\\angel\\source\\repos\\nova\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1E46C5F9-CB11-459F-8837-903BF05184CF}|Nova.csproj|C:\\Users\\Angel\\source\\repos\\Nova\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1E46C5F9-CB11-459F-8837-903BF05184CF}|Nova.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E46C5F9-CB11-459F-8837-903BF05184CF}|Nova.csproj|C:\\Users\\Angel\\source\\repos\\Nova\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1E46C5F9-CB11-459F-8837-903BF05184CF}|Nova.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E46C5F9-CB11-459F-8837-903BF05184CF}|Nova.csproj|C:\\Users\\Angel\\source\\repos\\Nova\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1E46C5F9-CB11-459F-8837-903BF05184CF}|Nova.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E46C5F9-CB11-459F-8837-903BF05184CF}|Nova.csproj|c:\\users\\angel\\source\\repos\\nova\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|cc4014f5-b18d-439c-9352-f99d984cca85"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,37 +48,112 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\source\\repos\\Nova\\Form3.cs",
+              "RelativeDocumentMoniker": "Form3.cs",
+              "ToolTip": "C:\\Users\\Angel\\source\\repos\\Nova\\Form3.cs",
+              "RelativeToolTip": "Form3.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowB4AAACLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T03:12:59.033Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Nova",
+              "DocumentMoniker": "C:\\Users\\Angel\\source\\repos\\Nova\\Nova.csproj",
+              "RelativeDocumentMoniker": "Nova.csproj",
+              "ToolTip": "C:\\Users\\Angel\\source\\repos\\Nova\\Nova.csproj",
+              "RelativeToolTip": "Nova.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-01T08:10:41.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form2.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Angel\\source\\repos\\Nova\\Form2.cs",
+              "RelativeDocumentMoniker": "Form2.cs",
+              "ToolTip": "C:\\Users\\Angel\\source\\repos\\Nova\\Form2.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form2.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T08:07:20.387Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form3.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Angel\\source\\repos\\Nova\\Form3.cs",
+              "RelativeDocumentMoniker": "Form3.cs",
+              "ToolTip": "C:\\Users\\Angel\\source\\repos\\Nova\\Form3.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form3.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T02:56:44.781Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form4.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\source\\repos\\Nova\\Form4.cs",
+              "RelativeDocumentMoniker": "Form4.cs",
+              "ToolTip": "C:\\Users\\Angel\\source\\repos\\Nova\\Form4.cs",
+              "RelativeToolTip": "Form4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAACLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T03:36:28.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form4.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Angel\\source\\repos\\Nova\\Form4.cs",
+              "RelativeDocumentMoniker": "Form4.cs",
+              "ToolTip": "C:\\Users\\Angel\\source\\repos\\Nova\\Form4.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form4.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T03:31:15.495Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Form2.cs",
               "DocumentMoniker": "C:\\Users\\Angel\\source\\repos\\Nova\\Form2.cs",
               "RelativeDocumentMoniker": "Form2.cs",
               "ToolTip": "C:\\Users\\Angel\\source\\repos\\Nova\\Form2.cs",
               "RelativeToolTip": "Form2.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowEUAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAArwBYAAACLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-01T00:35:30.695Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Angel\\source\\repos\\Nova\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\Angel\\source\\repos\\Nova\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAACJAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvxcAAACLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-31T23:59:58.12Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Angel\\source\\repos\\Nova\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",

@@ -19,8 +19,8 @@ namespace Nova
         public Form2()
         {
             InitializeComponent();
-            ruta = Path.Combine(Application.StartupPath, @"Data\NovaDb.mdf");
-            cadena_conexion = $"Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename={ruta};Integrated Security=True;Connect Timeout=30";
+            ruta = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "NovaDb.mdf");
+            cadena_conexion = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\NovaDb.mdf;Integrated Security=True;";
         }
 
         private void btnRegistrarUsuario_Click(object sender, EventArgs e)
